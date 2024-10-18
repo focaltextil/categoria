@@ -1,0 +1,106 @@
+
+:root{
+    --bg-color: #BFDDEF;
+    --main-color: #0578BD;
+    --cta-color: #00D0FF;
+    --text-color: #fff;
+    --font-size: 1vw;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--bg-color);
+    /* width: 100vw; */
+}
+
+header{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    background-color: var(--main-color);
+    padding: 0 3vw;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+
+.logo{
+    margin: 0 1vw;
+}
+
+.logo img{
+    width: 6vw;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2vw;
+    list-style: none;
+    color: var(--text-color);
+    font-size: var(--font-size);
+}
+
+.user-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1vw;
+    margin: 0 1vw;
+}
+
+.user-container img{
+    width: 1.2vw;
+    height: 1.2vw;
+    cursor: pointer;
+}
+
+
+#carrinho{
+    width: 1.4vw;
+    height: 1.4vw;
+}
+
+.title{
+    position: relative;
+    margin-top: 12vw;
+    color: var(--main-color);
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+.sessao{
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+    padding: 3vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 5vw; */
+    width: 20%;
+
+}
