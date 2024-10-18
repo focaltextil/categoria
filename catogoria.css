@@ -102,5 +102,5 @@ header{
     justify-content: center;
     /* margin-top: 5vw; */
     width: 20%;
-
+    box-shadow: 3px 7px 5px 1px rgba(0, 0, 0, 0.2);
 }
