@@ -81,9 +81,22 @@ header{
 .carrossel{
     max-width: 100vw;
     overflow: hidden;
+    z-index: 1;
 }
 
 
+
+.whats-icon{
+    top: 20vw;
+    position: fixed;
+    right: 2vw;
+    z-index: 2;
+}
+
+.whats-icon img{
+    width: 3vw;
+    cursor: pointer;
+}
 
 .text-home{
     position: relative;
